@@ -24,4 +24,4 @@ $ git clone https://github.com/ULTIMATIXCEO/BASSEY-S-CODE.git
 
 $ cd Bassey_code
 
-$ python Bassey's_code.py
+$ python Bassey_code.py
