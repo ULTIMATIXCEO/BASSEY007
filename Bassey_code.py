@@ -438,7 +438,7 @@ class Main:
 		print(" [4] 2009-10 Cloning")
 		print(" [5] 2011-14 Cloning")
 		print(" [E] Exit Programming\n")
-		UZAIR =input(" Choose : ")
+		BASSEY =input(" Choose : ")
 		if BASSEY in ["1", "01"]:
 			File()
 		if BASSEY in ["2", "02"]:
