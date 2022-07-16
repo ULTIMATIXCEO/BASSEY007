@@ -22,6 +22,6 @@ $ pkg install git
 
 $ git clone https://github.com/ULTIMATIXCEO/BASSEY-S-CODE.git
 
-$ cd Bassey_code
+$ cd BASSEY-S-CODE
 
 $ python Bassey_code.py
