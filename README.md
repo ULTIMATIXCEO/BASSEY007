@@ -1,27 +1,27 @@
 # BASSEY-S-CODE
 
-$ pkg update
+ pkg update
 
-$ pkg upgrade
+ pkg upgrade
 
-$ pkg install python
+ pkg install python
 
-$ pkg install python2
+ pkg install python2
 
-$ pip install requests
+ pip install requests
 
-$ pip install mechanize
+ pip install mechanize
 
-$ pip install lolcat
+ pip install lolcat
 
-$ pip install rich
+ pip install rich
 
-$ pip install bs4
+ pip install bs4
 
-$ pkg install git
+ pkg install git
 
-$ git clone https://github.com/ULTIMATIXCEO/BASSEY-S-CODE.git
+ git clone https://github.com/ULTIMATIXCEO/BASSEY007.git
 
-$ cd BASSEY-S-CODE
+ cd BASSEY007
 
-$ python Bassey_code.py
+ python Bassey.py
