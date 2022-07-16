@@ -279,7 +279,7 @@ def name2():
 	with tred(max_workers=30) as pool:
 		for yuzong in id2:
 	                idf,nmf = yuzong.split('|')[0],yuzong.split('|')[1].lower()
-			frs = nmf.split(' ')[0]
+	        	frs = nmf.split(' ')[0]
 			pwv = ['445566']
 			if len(nmf)<6:
 				if len(frs)<3:
