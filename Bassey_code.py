@@ -438,16 +438,16 @@ class Main:
 		print(" [4] 2009-10 Cloning")
 		print(" [5] 2011-14 Cloning")
 		print(" [] Exit Programming\n")
-		 BASSEY_CODE =input(" Choose : ")
-		if BASSEY_CODE in ["1", "01"]:
+		 BASSEY =input(" Choose : ")
+		if BASSEY in ["1", "01"]:
 			File()
-		if BASSEY_CODE in ["2", "02"]:
+		if BASSEY in ["2", "02"]:
 			Public()
-		if BASSEY_CODE in ["3", "03"]:
+		if BASSEY in ["3", "03"]:
 			os.system("python Dump.py")
 		if BASSEY in ["4", "04"]:
 			self.old()
-		if BASSEY_CODE in ["5", "05"]:
+		if BASSEY in ["5", "05"]:
 			self.old2()
 			exit()
 		else:
