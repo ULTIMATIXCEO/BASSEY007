@@ -437,15 +437,15 @@ class Main:
 		print(" [3] Create File")
 		print(" [4] 2009-10 Cloning")
 		print(" [5] 2011-14 Cloning")
-		print(" [E] Exit Programming\n")
-		BASSEY_CODE =input(" Choose : ")  
-                if BASSEY_CODE in ["1", "01"]:
+		print(" [] Exit Programming\n")
+		 BASSEY_CODE =input(" Choose : ")
+		if BASSEY_CODE in ["1", "01"]:
 			File()
 		if BASSEY_CODE in ["2", "02"]:
 			Public()
 		if BASSEY_CODE in ["3", "03"]:
 			os.system("python Dump.py")
-		if BASSEY_CODE in ["4", "04"]:
+		if BASSEY in ["4", "04"]:
 			self.old()
 		if BASSEY_CODE in ["5", "05"]:
 			self.old2()
