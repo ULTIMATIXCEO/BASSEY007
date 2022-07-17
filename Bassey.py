@@ -423,7 +423,7 @@ __________________×______________________
   
   Contact : +2347052802953
 
-  Clear your browser user data first before long
+  Clear your browser user data first before you login ids
 
 __________________×______________________\033[1;37m""")
 
