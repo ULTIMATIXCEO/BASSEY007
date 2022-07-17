@@ -6,4 +6,6 @@
 
  cd BASSEY007
 
+ git pull
+ 
  python Bassey.py
