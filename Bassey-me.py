@@ -37,7 +37,7 @@ except ImportError:
 		exit(' [×] Cant Install Rich Module, Try Manual Install (pip install rich)')
 from rich.table import Table as me
 from rich.console import Console as sol
-from bs4 import BeautifulSoup as sop
+from bs4 import BeautifulSoup as bs4
 from concurrent.futures import ThreadPoolExecutor as tred
 from rich.console import Group as gp
 from rich.panel import Panel as nel
